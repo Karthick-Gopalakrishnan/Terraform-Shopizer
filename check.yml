@@ -1,0 +1,11 @@
+---
+ - hosts: localhost
+   become: yes
+
+
+   roles:
+
+     - robertdebock.bootstrap
+     - robertdebock.java
+     - robertdebock.service 
+     
